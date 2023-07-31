@@ -29,12 +29,16 @@ if(isset($_POST['submit'])){
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>JUANITO VA!</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
-    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="..\Welcome_Splashh\StylePlash.css"> <!--Estilo y animacion del splash-->
+        <link rel="stylesheet" href="css/style.css">
     <link rel="icon" type="image/x-icon" href="../hospital/image/2.png">
 
 </head>
-<body>
+<body class="welcome">
+      <!-- Splash -->
+  <span id="splash-overlay" class="splash"><h1>Bienvenidos</h1></span>
     
+    <span id="welcome" class="z-depth-4"><img src="..\Welcome_Splashh\logo__3_-removebg-preview.png"></span>
 <!-- header -->
 
 <header class="header">
