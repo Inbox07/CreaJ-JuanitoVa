@@ -43,7 +43,7 @@ if(isset($_POST['submit'])){
 
 <header class="header">
 
-    <a href="#" class="logo"> <i class="fas fa-heartbeat"></i> <strong>JUANITO</strong>VA! </a>
+    <a href="http://127.0.0.1/CreaJ-JuanitoVa/JUANITO-VA!/JUANITO-VA!/index.php" class="logo"> <i class="fas fa-heartbeat"></i> <strong>JUANITO</strong>VA! </a>
 
     <nav class="navbar">
         <a href="#home">home</a>

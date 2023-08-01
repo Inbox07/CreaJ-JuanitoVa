@@ -1,0 +1,193 @@
+
+body{
+    top: 0;
+    margin: 0;
+    padding: 0;
+}
+.backhome{
+    background-color: grey;
+    border-bottom: 1px;
+    color: white;
+    font: lighter;
+    letter-spacing: 2px;
+    margin-right: 400px;
+}
+.sidetoside{
+    left: 0;
+    margin: 0;
+    position: relative;
+    max-width: 100%;
+    margin-left: 730px;
+    margin-top: -300px;
+    right: auto;
+    background-color: aqua;
+    padding: 23px;
+    border-radius: 2px;
+    box-shadow: rgba(0, 0, 0, 0.645) 12px 4px 4px;
+
+
+}
+
+.Log_1653116643{
+    font-family: 'Optimistic Text Bold', Helvetica, Arial, sans-serif;
+    color: rgba(27, 26, 26, 0.792);
+    text-align: justify;
+    margin-left: 23px;
+}
+.allofyu{
+    color: rgb(45, 45, 198);
+    font-family: 'Optimistic Text Bold', Helvetica, Arial, sans-serif;
+    font-size: 50px;
+    max-width: 500px;
+    margin: 34px;
+    letter-spacing: 2px;
+    text-shadow: lightblue 4px 4px 12px;
+}
+/* Quote de */
+.Title_2{
+    font-family: 'Optimistic Text Bold', Helvetica, Arial, sans-serif;
+    color: grey;
+    font-size: 18px;
+    margin-top: 40px;
+    margin: 33px;
+}
+.block_1 img{
+    position: relative;
+    margin: 0;
+    border-radius: 3px;
+    background-size: cover;
+    max-width: 100%;
+}
+.block_1{
+    width: 20pc;
+    height: 26pc;
+    padding: 0;
+    max-width: 100%;
+    display: inline-block;
+    margin: 35px;
+    background-color: aqua;
+    align-self: center;
+    cursor: pointer;
+}
+/* animador */
+.block_1 img:hover{
+    transition: all cubic-bezier(1, 0, 0, 1) 0.5s;
+    transform: scale3d(1.1 ,1.1, 1.2);
+}
+.block_1 h3{
+    color: black;
+    font-family: fantasy;
+    text-align: center;
+    z-index: 1;
+}
+.block_1 h6{
+    font-family:cursive;
+    margin: 5px;
+}
+/* second quote */
+
+.block_2 img{
+    position: relative;
+    margin: 0;
+    border-radius: 3px;
+    max-width: 100%;
+}
+.block_2{
+    width: 20pc;
+    height: 26pc;
+    padding: 0;
+    max-width: 100%;
+    display: inline-block;
+    margin: 35px;
+    background-color: aqua;
+    align-self: center;
+    cursor: pointer;
+}
+/* animador */
+.block_2 img:hover{
+    transition: all cubic-bezier(1, 0, 0, 1) 0.5s;
+    transform: scale3d(1.1 ,1.1, 1.2);
+}
+
+.block_2 h3{
+    color: black;
+    font-family: fantasy;
+    text-align: center;
+}
+.block_2 h6{
+    font-family: cursive;
+    margin: 5px;
+}
+
+/* thrid quote */
+
+.block_3 img{
+    position: relative;
+    margin: 0;
+    border-radius: 3px;
+    max-width: 100%;
+}
+.block_3{
+    width: 20pc;
+    height: 26pc;
+    padding: 0;
+    max-width: 100%;
+    display: inline-block;
+    margin: 35px;
+    background-color: aqua;
+    align-self: center;
+    cursor: pointer;
+}
+/* animador */
+.block_3 img:hover{
+    transition: all cubic-bezier(1, 0, 0, 1) 0.5s;
+    transform: scale3d(1.1 ,1.1, 1.2);
+}
+.block_3 h3{
+    color: black;
+    font-family: fantasy;
+    text-align: center;
+}
+.block_3 h6{
+    font-family: cursive;
+    margin: 5px;
+}
+ /*Animator for block´s*/
+.block_1:hover{
+    transform: scale(1.03);
+    transition: all cubic-bezier(0.95, 0.05, 0.795, 0.035) 0.3s;
+}
+.block_2:hover{
+    transform: scale(1.03);
+    transition: all cubic-bezier(0.95, 0.05, 0.795, 0.035) 0.3s;
+}
+.block_3:hover{
+    transform: scale(1.03);
+    transition: all cubic-bezier(0.95, 0.05, 0.795, 0.035) 0.3s;
+}
+
+
+
+
+/*Responsive web page*/
+
+/* For desktop: */
+.col-1 {width: 8.33%;}
+.col-2 {width: 16.66%;}
+.col-3 {width: 25%;}
+.col-4 {width: 33.33%;}
+.col-5 {width: 41.66%;}
+.col-6 {width: 50%;}
+.col-7 {width: 58.33%;}
+.col-8 {width: 66.66%;}
+.col-9 {width: 75%;}
+.col-10 {width: 83.33%;}
+.col-11 {width: 91.66%;}
+.col-12 {width: 100%;}
+
+@media only screen and (max-width: 768px) {
+  /* For mobile phones: */
+  [class*="col-"] {
+    width: 100%;
+  }
+}
