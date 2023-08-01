@@ -5,10 +5,10 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Terminos y Condiciones</title>
-    <link rel="stylesheet" href="/JUANITO-VA!/Extra/Terms and condition.css">
+    <link rel="stylesheet" href="..\Extra\Terms and condition.css">
 </head>
 <body>
-    <div class="content_gnral">
+
         <div>
             
             <h1 class="Log_1653116643">Juanito Va!</h1>
@@ -19,7 +19,7 @@
             <br><br><br><br>
             <h1 class="Title_2">Terminos y condiciones</h1>
             <h5 class="allofyu">Todo lo que necesitas saber, en un mismo lugar.</h5>
-            <img class="sidetoside" src="/JUANITO-VA!/image/logo.png" alt="">
+            <img class="sidetoside" src="../image/logo.png" alt="">
             <br><br><br>
             <h1 class="Title_2">Como Trabajamos</h1>
         <div class="block_1">
@@ -34,7 +34,7 @@
                 <h6>Actividad prohibida de el uso de nuestros servicios</h6>
         </div>
                 <div class="block_3">
-                    <img src="/JUANITO-VA!/image/Privacidad.png">
+                    <img src="../image/Privacidad.png">
                     <h3>Politica de Privacidad</h3>
                     <h6>Informacion de el uso de tus Datos</h6>
                 </div>

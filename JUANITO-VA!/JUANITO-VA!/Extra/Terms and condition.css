@@ -3,6 +3,7 @@ body{
     top: 0;
     margin: 0;
     padding: 0;
+    background-color: white;
 }
 .backhome{
     background-color: grey;
@@ -64,7 +65,7 @@ body{
     padding: 0;
     max-width: 100%;
     display: inline-block;
-    margin: 35px;
+    margin: 40px;
     background-color: aqua;
     align-self: center;
     cursor: pointer;
@@ -98,7 +99,7 @@ body{
     padding: 0;
     max-width: 100%;
     display: inline-block;
-    margin: 35px;
+    margin: 40px;
     background-color: aqua;
     align-self: center;
     cursor: pointer;
@@ -128,12 +129,13 @@ body{
     max-width: 100%;
 }
 .block_3{
+    top: 29px;
     width: 20pc;
     height: 26pc;
     padding: 0;
     max-width: 100%;
     display: inline-block;
-    margin: 35px;
+    margin: 40px;
     background-color: aqua;
     align-self: center;
     cursor: pointer;
