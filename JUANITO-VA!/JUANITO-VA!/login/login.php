@@ -46,7 +46,7 @@ if(isset($_POST['submit'])){
       }
       ?>
       <input type="email" name="email" placeholder="email" class="box" required>
-      <input type="password" name="password" placeholder="password" class="box" required>
+      <input type="password" name="password" minlength="8" maxlength="8" placeholder="password" class="box" required>
       <input type="submit" name="submit" value="login now" class="btn">
       <p>No tienes cuenta? <a href="register.php">Registrate</a></p>
    </form>

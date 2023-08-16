@@ -134,7 +134,7 @@ if(isset($_POST['submit'])){
             <i class="fas fa-pills"></i>
             <h3>Medicinas</h3>
             <p>Productos pre-recetados por su doctor se encuentran aca.</p>
-            <a href="#" class="btn"> learn more <span class="fas fa-chevron-right"></span> </a>
+            <a href="..\carrito-de-compras-main\index.html" class="btn"> learn more <span class="fas fa-chevron-right"></span> </a>
         </div>
 
         <div class="box">
